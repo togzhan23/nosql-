@@ -25,7 +25,7 @@ This is the backend service for a To-Do application, built using Node.js and Exp
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/todo-app-backend.git
+   git clone https://github.com/togzhan23/nosql-.git
    ```
 
 2. Navigate to the project directory:
