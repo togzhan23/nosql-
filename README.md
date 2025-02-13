@@ -1,6 +1,8 @@
 # nosql 
 # To-Do App Backend
 
+Final assignment for Advanced Databases (NoSQL). Teamwork by Togzhan Oral and Yelnura Akhmetova.
+
 ## Overview
 This is the backend service for a To-Do application, built using Node.js and Express. It provides APIs for user authentication and task management, utilizing MongoDB as the database.
 
@@ -20,28 +22,33 @@ This is the backend service for a To-Do application, built using Node.js and Exp
 - dotenv for environment variable management
 
 ## Installation
+
 1. Clone the repository:
-   
-  git clone https://github.com/your-repo/todo-app-backend.git
-   
-   
+   ```sh
+   git clone https://github.com/your-repo/todo-app-backend.git
+   ```
+
 2. Navigate to the project directory:
-   
+   ```sh
    cd todo-app-backend
-   
+   ```
+
 3. Install dependencies:
-   
+   ```sh
    npm install
-   
-4. Create a .env file and configure it:
-   
+   ```
+
+4. Create a `.env` file and configure it:
+   ```sh
    MONGO_URI=mongodb://127.0.0.1:27017/todo
    JWT_SECRET=your_secret_key
-   
+   ```
+
 5. Start the server:
-   
+   ```sh
    npm start
    
+
 
 ## API Endpoints
 ### Authentication
@@ -57,5 +64,3 @@ This is the backend service for a To-Do application, built using Node.js and Exp
 ## License
 This project is licensed under the ISC License.
 
-## Author
-Your Name
