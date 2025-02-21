@@ -1,105 +1,104 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eef2f3;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 380px;
-    margin: 60px auto;
-    padding: 30px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.12);
-}
-
-h1 {
-    font-size: 26px;
-    color: #222;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-input {
-    width: 92%;
-    padding: 14px;
-    margin: 12px 0;
-    border: 1px solid #bbb;
-    border-radius: 8px;
-    font-size: 15px;
-    transition: 0.3s;
-}
-
-input:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 6px rgba(0, 123, 255, 0.6);
-}
-
-button {
-    width: 100%;
-    padding: 14px;
-    background: linear-gradient(45deg, #007bff, #0056b3);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 12px;
-    transition: 0.3s ease-in-out;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-button:hover {
-    background: linear-gradient(45deg, #0056b3, #003f7f);
-    transform: scale(1.05);
-}
-
-p {
-    margin-top: 12px;
-    font-size: 15px;
-}
-
-p a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-p a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-}
-
-
-.error-message {
-    color: #e84118;
-    font-size: 15px;
-    margin-top: 12px;
-}
-
-
-.success-message {
-    color: #28a745;
-    font-size: 15px;
-    margin-top: 12px;
-}
-
-
-.logout-btn {
-    width: auto;
-    background: linear-gradient(45deg, #ff4757, #e84118);
-    padding: 12px 18px;
-    border-radius: 8px;
-    font-size: 15px;
-    transition: 0.3s ease-in-out;
-}
-
-.logout-btn:hover {
-    background: linear-gradient(45deg, #e84118, #c23616);
-    transform: scale(1.05);
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: linear-gradient(135deg, #009688, #a1887f); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+.container { 
+    width: 380px; 
+    margin: 60px auto; 
+    padding: 30px; 
+    background: white; 
+    border-radius: 10px; 
+    box-shadow: 0px 5px 12px rgba(0, 150, 136, 0.2); 
+} 
+ 
+h1 { 
+    font-size: 26px; 
+    color: #005f56; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+} 
+ 
+input { 
+    width: 92%; 
+    padding: 14px; 
+    margin: 12px 0; 
+    border: 1px solid #00796b; 
+    border-radius: 8px; 
+    font-size: 15px; 
+    transition: 0.3s; 
+} 
+ 
+input:focus { 
+    outline: none; 
+    border-color: #004d40; 
+    box-shadow: 0 0 6px rgba(0, 121, 107, 0.6); 
+} 
+ 
+button { 
+    width: 100%; 
+    padding: 14px; 
+    background: linear-gradient(45deg, #00796b, #5d4037); 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 12px; 
+    transition: 0.3s ease-in-out; 
+    box-shadow: 2px 2px 6px rgba(0, 150, 136, 0.2); 
+} 
+ 
+button:hover { 
+    background: linear-gradient(45deg, #004d40, #3e2723); 
+    transform: scale(1.05); 
+} 
+ 
+p { 
+    margin-top: 12px; 
+    font-size: 15px; 
+} 
+ 
+p a { 
+    color: #00796b; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: 0.2s; 
+} 
+ 
+p a:hover { 
+    text-decoration: underline; 
+    color: #004d40; 
+} 
+ 
+.error-message { 
+    color: #d50000; 
+    font-size: 15px; 
+    margin-top: 12px; 
+} 
+ 
+.success-message { 
+    color: #2e7d32; 
+    font-size: 15px; 
+    margin-top: 12px; 
+} 
+ 
+.logout-btn { 
+    width: auto; 
+    background: linear-gradient(45deg, #d81b60, #ad1457); 
+    padding: 12px 18px; 
+    border-radius: 8px; 
+    font-size: 15px; 
+    transition: 0.3s ease-in-out; 
+} 
+ 
+.logout-btn:hover { 
+    background: linear-gradient(45deg, #ad1457, #880e4f); 
+    transform: scale(1.05); 
 }
